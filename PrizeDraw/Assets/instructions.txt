@@ -1,0 +1,22 @@
+
+List of keys:
+
+1. Generate keys - Press to generate and save 100 unique serial keys
+2. Load keys - Loads the saved keys into the program
+3. Show keys - Shows the keys, only works if you have loaded the keys first
+4. Clear - Clears the keys
+5. Press a key in the list to copy it directly to the Serial text field in the input form
+
+Enter form:
+
+1. Input the relevant info in each field
+2. Enter the draw - Press to enter once each field has info
+3. Clear - Clears every field
+
+Submissions
+
+1. Save - Saves the list of entered persons into an xml file
+2. Load - Loads an xml file of entered persons
+3. Show - Shows the entered persons in the gridview
+4. Clear - Clears the list of entered persons (careful)
+5. Generate 100 persons - Reads a test file and populates the gridview for testing purposes
