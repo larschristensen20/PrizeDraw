@@ -1,5 +1,10 @@
 # PrizeDrawAssignment
-Assignment 2 of I-CS-U1-1-E17.  A pricedrawing system that has file persistency.
+Assignment 2 of I-CS-U1-1-E17. 
+A pricedrawing system that has file persistency.
+
+Made by
+Lars Petri Christensen
+larsc15@student.sdu.dk
 
 Once cloned, select the PriceDraw solution and build it. 
 After building it, deploy it. 
