@@ -19,7 +19,7 @@
                     <TextBox x:Name="EmailBox" HorizontalAlignment="Left" Margin="865,214,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="262" PlaceholderText='"larsc15@student.sdu.dk"' />
                     <TextBox x:Name="PhoneNumberBox" HorizontalAlignment="Left" Margin="865,292,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="262" PlaceholderText='"29371632"' />
                     <TextBox x:Name="DateOfBirthBox" HorizontalAlignment="Left" Margin="865,368,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="262" PlaceholderText='"1995/04/25"'/>
-                    <TextBox x:Name="SerialBox" HorizontalAlignment="Left" Margin="865,448,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="262" PlaceholderText='"hgo56lHN4ga10OlaYnZ"' />
+                    <TextBox x:Name="SerialBox" HorizontalAlignment="Left" Margin="865,448,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="262" PlaceholderText='"insert key"' />
                     <Button x:Name="EnterDrawButton" Content="Enter the draw" HorizontalAlignment="Left" Margin="865,506,0,0" VerticalAlignment="Top" Height="39" Width="118" Click="EnterDrawButton_Click"/>
                     <Button x:Name="ClearAllTextBoxesButton" Content="Clear" HorizontalAlignment="Left" Margin="1009,506,0,0" VerticalAlignment="Top" Height="39" Width="118" Click="ClearAllTextBoxesButton_Click"/>
                     <Button x:Name="LoadKeysFromFileButton" Content="Load keys" HorizontalAlignment="Left" Margin="180,516,0,0" VerticalAlignment="Top" Height="46" Width="137" Click="LoadKeysFromFileButton_Click"/>

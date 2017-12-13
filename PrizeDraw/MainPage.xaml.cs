@@ -125,6 +125,7 @@ namespace PrizeDraw
                 {
                     personsEnteredInDraw.Add(p);
                     strList.Remove(SerialBox.Text);
+                    DisplayYouEnteredtheDrawDialog();
                 } else
                 {
                     DisplayDuplicatePersonDialog();
@@ -243,6 +244,23 @@ namespace PrizeDraw
 
             await duplicatePerson.ShowAsync();
         }
+
+        /// <summary>
+        /// Displays a content dialog when everthing is successful and you enter the draw
+        /// </summary>
+        private async void DisplayYouEnteredtheDrawDialog()
+        {
+            ContentDialog enteredInDraw = new ContentDialog()
+
+            {
+                Content = "You have been entered in the draw",
+                CloseButtonText = "Ok"
+            };
+
+            await enteredInDraw.ShowAsync();
+        }
+
+
         /// <summary>
         /// Button click to clear all user input text boxes.
         /// </summary>
