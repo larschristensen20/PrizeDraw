@@ -5,7 +5,7 @@
     xmlns:local="using:PrizeDraw"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:data="using:PrizeDrawLibrary"
+    xmlns:data="using:PrizeDrawingLibrary"
     mc:Ignorable="d" Height="738" Width="1205">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
