@@ -11,3 +11,14 @@ After building it, deploy it.
 Then run the project using F5.
 
 The instructions to use the application can be found in the application.
+
+Some features are:
+  Generate and save unique GUID keys
+  Load them and show them in list
+  Copy key by pressing it in list
+  Enter the prize draw by entering info the in enter form
+  Show submissions in submission tab
+  Save current submissions / load 
+  Show them and generate 100 test persons to see the effect in the list
+  Save current submissions by save button or closing the window
+  
