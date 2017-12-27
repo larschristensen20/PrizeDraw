@@ -31,6 +31,8 @@ namespace PrizeDrawingLibrary
                 {
                     Guid g = Guid.NewGuid();
                     string GuidString = Convert.ToBase64String(g.ToByteArray());
+                    // replaces common symbols that appear midst or at the end of the GuidString.
+                    // Purely for visual reasons, for more cleaner looking serial keys.
                     GuidString = GuidString.Replace("=", "");
                     GuidString = GuidString.Replace("+", "");
                     GuidString = GuidString.Replace("/", "");
